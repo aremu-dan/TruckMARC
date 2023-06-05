@@ -1,0 +1,35 @@
+:root {
+   --form-success: #006045;
+   --form-primary: #1C2541;
+   --form-danger: ;
+   --form-warning: ;
+   --form-mute: #5D5D5B;
+   --form-light: #fff;
+
+   
+   --form-success_hover: #00A88F;
+   --form-primary: #1C2541;
+   --form-danger: ;
+   --form-warning: ;
+   --form-mute_hover: #2c2c2c;
+   --form-light: #fff;
+}
+
+
+button {
+   position: relative;
+   width: clamp(120px, 100%, 200px);
+   height: clamp(30px, 100%, 45px);
+   border-radius: 25px;
+   background-color: var(--form-success);
+   outline: none;
+   border: none;
+   color: var(--form-light);
+   text-transform: uppercase;
+   font-weight: bold;
+   cursor: pointer;
+}
+button:hover {
+   background-color: var(--form-success_hover);
+   color: var(--form-success);
+}
