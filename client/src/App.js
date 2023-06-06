@@ -1,14 +1,17 @@
-import React from "react"
+import React from "react";
 // import { useState } from 'react';
+
 import './App.css';
-import HomePage from './components/home/Home';
+
+import Auth from './components/auth/Auth';
+import Home from './components/home/Home';
 
 function App() {
   return (
-    <div className="App">
-      <HomePage />
-      {/* <Auth/>
-      <Dashboard /> */}
+    <div id="App" className="App">
+      <Home />
+      <Auth/>
+      {/* <Dashboard /> */}
     </div>
   );
 }
