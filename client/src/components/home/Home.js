@@ -11,7 +11,7 @@ function Home() {
           </div>
           <div className="text-content">
             <div className="title">
-              <h1>Enquire about</h1>
+              <h1>Enquire comfort</h1>
               <span>TruckMARC</span>
               <p>TruckMARC is a comprehensive software solution that enables real-time monitoring, efficient record-keeping, and effective control of truck movements on highways using illustrative-icons, responsive and interactive designs</p>
             </div>
