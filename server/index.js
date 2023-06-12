@@ -1,6 +1,7 @@
 // dependencies ------------------
 import express from "express";
 import mongoose from "mongoose";
+import Config from "./secure/config.js";
 
 
 // create new instance of dependency ------------------
@@ -8,10 +9,7 @@ const app = express()
 app.use(express.json())
 
 
-// app config settings ------------------
-const Config = {
-   "Mongo_URL": "mongodb+srv://castle:Castle0@neptuneapi.ufygsur.mongodb.net/?retryWrites=true&w=majority"
-}
+
 
 
 // connect to database ------------------
@@ -46,7 +44,7 @@ mongoose.connect(Config.Mongo_URL)
 // create new user -----------------------
 app.post("/user", (req, res) => {
    console.log(req.body);
-   res.send(req.body  )
+   res.send(req.body)
 })
 
 
